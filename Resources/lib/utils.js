@@ -4,8 +4,8 @@ var utils = (function(app) {
 	}
 	app.utils = {
 		/*
-		 * Very basic databinding with an Appcelerator control.
-		 */
+		* Very basic databinding with an Appcelerator control.
+		*/
 		bind : function(control, value, fieldName) {
 			var self=control;
 			if(!fieldName) {
