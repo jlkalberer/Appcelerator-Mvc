@@ -1,0 +1,22 @@
+Logfile initialized
+[INFO] logfile = C:\Users\johnk.WHITESPACE\My Documents\Titanium Studio Workspace\mvc\build.log
+[DEBUG] C:\Users\johnk.WHITESPACE\AppData\Roaming\Titanium\mobilesdk\win32\1.7.2\android\builder.py simulator mvc C:\android-sdk C:\Users\johnk.WHITESPACE\My Documents\Titanium Studio Workspace\mvc com.cymbal.mvc 7 HVGA 192.168.20.108:46073
+[INFO] Building mvc for Android ... one moment
+[INFO] Titanium SDK version: 1.7.2 (07/21/11 09:36 97c3689)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.019000 seconds on emulator to get ready
+[DEBUG] com.cymbal.mvc installed? True
+[INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying project resources..
+[TRACE] COPYING MODIFIED FILE: C:\Users\johnk.WHITESPACE\My Documents\Titanium Studio Workspace\mvc\Resources\views\Accounts\Create.js => C:\Users\johnk.WHITESPACE\My Documents\Titanium Studio Workspace\mvc\build\android\bin\assets\Resources\views\Accounts\Create.js
+[TRACE] COPYING MODIFIED FILE: C:\Users\johnk.WHITESPACE\My Documents\Titanium Studio Workspace\mvc\Resources\views\Accounts\Default.js => C:\Users\johnk.WHITESPACE\My Documents\Titanium Studio Workspace\mvc\build\android\bin\assets\Resources\views\Accounts\Default.js
+[INFO] Tiapp.xml unchanged, skipping class generation
+[DEBUG] Processing Android resource drawables
+[INFO] Waiting for SDCard to become available..
+[INFO] Re-launching application ... mvc
+[INFO] Launching application ... mvc
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.cymbal.mvc/.MvcActivity }
+
+[INFO] Relaunched mvc ... Application should be running.
