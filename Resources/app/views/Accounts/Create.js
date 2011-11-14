@@ -1,9 +1,9 @@
- (function(v) {
+(function(v) {
 		// Create the 'Accounts' object if it doesn't already exist
 	if(!v.Accounts) {
 		v.Accounts = {};
 	}
-	Ti.include("/utils.js");
+	Ti.include("/lib/utils.js");
 
 	/*
 	 * Render the Create page
@@ -68,7 +68,7 @@
 
 		submit.addEventListener("click", function() {
 			self.action("CreateFinish", model);
-			self.action("Accounts");  // routing will resolve to Accounts.Default
+			self.action("Accounts"); // /!\ Delete this line
 		});
 
 		view.add(fnLabel);

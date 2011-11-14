@@ -1,0 +1,25 @@
+/* HomeController */
+.HomeView {
+	backgroundColor: '#fff'
+}
+
+.HomeLabel, .HomeTextField {
+	top: '10dp',
+	width: '320dp',
+	height: '15dp',
+	textAlign: 'center'
+}
+
+.HomeTextField {
+	top: '50dp',
+	width: '50%',
+	height: '30dp',
+	backgroundColor: "#ffffff",
+	borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+	keyboardType:Ti.UI.KEYBOARD_DEFAULT
+}
+
+.HomeButton{
+	width: "50%",
+	height: "15%"
+}
