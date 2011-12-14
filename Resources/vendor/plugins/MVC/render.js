@@ -32,7 +32,8 @@ Mvc.render = function(ui, routeData, winSettings) {
         // remove children from current view
         var children = win.children;
         for(var i = 0; i < children.length; i += 1) {
-            win.remove(children[i])
+            win.remove(children[i]);
+            children[i] = null;
         }
     } else {
         // create a new window

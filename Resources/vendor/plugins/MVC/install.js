@@ -5,4 +5,4 @@ Mvc.init();
 Ti.include('/config/routes.js');
 
 // This will go off and attempt to render the default route
-Mvc.start(Mvc.ROOT);
+Mvc.start();

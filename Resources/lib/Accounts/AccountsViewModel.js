@@ -6,8 +6,8 @@
  * AccountViewModels from the Accounts.Default action
  * and I usually end up needing to pass additional data
  */
-function AccountsViewModel() {
+exports = function () {
 	return {
 		accounts : []
 	};
-}
+};

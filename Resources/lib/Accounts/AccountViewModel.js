@@ -1,7 +1,7 @@
 /*
  * Simple Account model used for displaying Accounts in a list
  */
-function AccountViewModel() {
+exports = function () {
 	return {
 		id : null,
 		firstName : null,
@@ -10,4 +10,4 @@ function AccountViewModel() {
 			return this.firstName + " " + this.lastName;
 		}
 	};
-}
+};

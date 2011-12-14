@@ -1,3 +1,5 @@
+var Mvc = requires("/vendor/plugins/MVC/mvc");
+
 // make a specific route
 Mvc.mapRoute(
 	"DoStuff_Route",
