@@ -1,8 +1,7 @@
-Ti.include('/vendor/plugins/MVC/mvc.js');
-Ti.include('/config/initializers/mvc.js');
-Ti.include('/vendor/plugins/MVC/render.js');
+var Mvc = requires('/vendor/plugins/MVC/mvc.js');
+Mvc.render = requires('/vendor/plugins/MVC/render.js');
 Mvc.init();
-Ti.include('/config/routes.js');
+requires('/config/routes.js'); // this simply calls the configuration code
 
 // This will go off and attempt to render the default route
 Mvc.start();

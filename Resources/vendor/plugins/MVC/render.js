@@ -1,12 +1,12 @@
 // manage the windows -- window stack
-Mvc.openWindows = [];
-Mvc.applicationOpening = true;
-Mvc.tabGroup = Titanium.UI.createTabGroup({tabBarHidden: true});
-Mvc.tab1 = Titanium.UI.createTab({
+var openWindows = [];
+var applicationOpening = true;
+var tabGroup = Titanium.UI.createTabGroup({tabBarHidden: true});
+var tab1 = Titanium.UI.createTab({
 	id:'tab1'
 });
 
-Mvc.render = function(ui, routeData, winSettings) {
+exports = function(ui, routeData, winSettings) {
     var win, index, routeName = routeData.controller + "." + routeData.action;
  
     // find the index in the stack of windows

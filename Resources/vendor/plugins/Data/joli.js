@@ -1,5 +1,9 @@
 var joli = (function(context) {
-	var joli = exports = {
+	if(Ti.App.joli) {
+		return Ti.App.joli;
+	}
+	
+	var joli = Ti.App.joli = exports = {
 	  each: function(collection, iterator, bind) {
 	    var i, l, property;
 	

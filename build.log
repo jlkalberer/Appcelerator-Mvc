@@ -1,22 +1,77 @@
 Logfile initialized
-[INFO] logfile = C:\Users\johnk.WHITESPACE\My Documents\Titanium Studio Workspace\mvc\build.log
-[DEBUG] C:\Users\johnk.WHITESPACE\AppData\Roaming\Titanium\mobilesdk\win32\1.7.2\android\builder.py simulator mvc C:\android-sdk C:\Users\johnk.WHITESPACE\My Documents\Titanium Studio Workspace\mvc com.cymbal.mvc 7 HVGA 192.168.20.108:46073
+[INFO] logfile = C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build.log
+[DEBUG] C:\Users\johnk.WHITESPACE\AppData\Roaming\Titanium\mobilesdk\win32\1.8.0.v20111003072623\android\builder.py simulator mvc C:\android-sdk C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc com.cymbal.mvc 7 HVGA 192.168.20.108:5341
 [INFO] Building mvc for Android ... one moment
-[INFO] Titanium SDK version: 1.7.2 (07/21/11 09:36 97c3689)
+[INFO] Titanium SDK version: 1.8.0 (10/03/11 07:26 cf539b5...)
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.019000 seconds on emulator to get ready
+[DEBUG] waited 0.021000 seconds on emulator to get ready
 [DEBUG] com.cymbal.mvc installed? True
-[INFO] Fastdev server running, deploying in Fastdev mode
+[WARN] Fastdev enabled, but server isn't running, deploying normally
 [INFO] Copying project resources..
-[TRACE] COPYING MODIFIED FILE: C:\Users\johnk.WHITESPACE\My Documents\Titanium Studio Workspace\mvc\Resources\views\Accounts\Create.js => C:\Users\johnk.WHITESPACE\My Documents\Titanium Studio Workspace\mvc\build\android\bin\assets\Resources\views\Accounts\Create.js
-[TRACE] COPYING MODIFIED FILE: C:\Users\johnk.WHITESPACE\My Documents\Titanium Studio Workspace\mvc\Resources\views\Accounts\Default.js => C:\Users\johnk.WHITESPACE\My Documents\Titanium Studio Workspace\mvc\build\android\bin\assets\Resources\views\Accounts\Default.js
-[INFO] Tiapp.xml unchanged, skipping class generation
+[INFO] Detected tiapp.xml change (or assets deleted), forcing full re-build...
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\appicon.png => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\appicon.png
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\default.png => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\default.png
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\app\controllers\AccountsController.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\app\controllers\AccountsController.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\app\controllers\HomeController.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\app\controllers\HomeController.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\app\models\Accounts.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\app\models\Accounts.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\app\views\Accounts\Create.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\app\views\Accounts\Create.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\app\views\Accounts\Default.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\app\views\Accounts\Default.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\app\views\Home\Default.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\app\views\Home\Default.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\app\views\Home\DoStuff.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\app\views\Home\DoStuff.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\app.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\app.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\config\initializers\mapper.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\config\initializers\mapper.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\config\routes.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\config\routes.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\lib\Accounts\AccountsViewModel.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\lib\Accounts\AccountsViewModel.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\lib\Accounts\AccountViewModel.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\lib\Accounts\AccountViewModel.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\lib\Accounts\CreateAccountViewModel.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\lib\Accounts\CreateAccountViewModel.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\lib\jsAutomapper.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\lib\jsAutomapper.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\lib\utils.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\lib\utils.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\public\stylesheets\iPhone\global.rjss => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\public\stylesheets\iPhone\global.rjss
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\public\stylesheets\iPhone\views\Home\Default.rjss => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\public\stylesheets\iPhone\views\Home\Default.rjss
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\vendor\plugins\Data\joli.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\vendor\plugins\Data\joli.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\vendor\plugins\Mapper\install.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\vendor\plugins\Mapper\install.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\vendor\plugins\MVC\install.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\vendor\plugins\MVC\install.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\vendor\plugins\MVC\mvc.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\vendor\plugins\MVC\mvc.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\vendor\plugins\MVC\render.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\vendor\plugins\MVC\render.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\vendor\plugins\Redux\install.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\vendor\plugins\Redux\install.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\vendor\plugins\Redux\redux.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\vendor\plugins\Redux\redux.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\vendor\plugins\Underscore\install.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\vendor\plugins\Underscore\install.js
+[TRACE] COPYING CREATED FILE: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\vendor\plugins\Underscore\underscore.js => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\vendor\plugins\Underscore\underscore.js
+[TRACE] Generating Java Classes
 [DEBUG] Processing Android resource drawables
+[DEBUG] app stylesheet => C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\gen\com\cymbal\mvc\ApplicationStylesheet.java
+[DEBUG] copying app icon: C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\appicon.png
+[DEBUG] generating theme.xml
+[DEBUG] found drawable-long-land-hdpi splash screen at C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-long-land-hdpi\default.png
+[DEBUG] copying C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-long-land-hdpi\default.png splash screen to C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\res\drawable-long-land-hdpi\background.png
+[DEBUG] found drawable-long-land-ldpi splash screen at C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-long-land-ldpi\default.png
+[DEBUG] copying C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-long-land-ldpi\default.png splash screen to C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\res\drawable-long-land-ldpi\background.png
+[DEBUG] found drawable-long-port-hdpi splash screen at C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-long-port-hdpi\default.png
+[DEBUG] copying C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-long-port-hdpi\default.png splash screen to C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\res\drawable-long-port-hdpi\background.png
+[DEBUG] found drawable-long-port-ldpi splash screen at C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-long-port-ldpi\default.png
+[DEBUG] copying C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-long-port-ldpi\default.png splash screen to C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\res\drawable-long-port-ldpi\background.png
+[DEBUG] found drawable-notlong-land-hdpi splash screen at C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-notlong-land-hdpi\default.png
+[DEBUG] copying C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-notlong-land-hdpi\default.png splash screen to C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\res\drawable-notlong-land-hdpi\background.png
+[DEBUG] found drawable-notlong-land-ldpi splash screen at C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-notlong-land-ldpi\default.png
+[DEBUG] copying C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-notlong-land-ldpi\default.png splash screen to C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\res\drawable-notlong-land-ldpi\background.png
+[DEBUG] found drawable-notlong-land-mdpi splash screen at C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-notlong-land-mdpi\default.png
+[DEBUG] copying C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-notlong-land-mdpi\default.png splash screen to C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\res\drawable-notlong-land-mdpi\background.png
+[DEBUG] found drawable-notlong-port-hdpi splash screen at C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-notlong-port-hdpi\default.png
+[DEBUG] copying C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-notlong-port-hdpi\default.png splash screen to C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\res\drawable-notlong-port-hdpi\background.png
+[DEBUG] found drawable-notlong-port-ldpi splash screen at C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-notlong-port-ldpi\default.png
+[DEBUG] copying C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-notlong-port-ldpi\default.png splash screen to C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\res\drawable-notlong-port-ldpi\background.png
+[DEBUG] found drawable-notlong-port-mdpi splash screen at C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-notlong-port-mdpi\default.png
+[DEBUG] copying C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\Resources\android\images\res-notlong-port-mdpi\default.png splash screen to C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\res\drawable-notlong-port-mdpi\background.png
+[DEBUG] found splash screen at C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\bin\assets\Resources\default.png
+[TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\gen\com\cymbal\mvc\ApplicationStylesheet.java to javac build list
+[DEBUG] adding C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\gen\com\cymbal\mvc\MvcActivity.java to javac build list
+[DEBUG] adding C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\gen\com\cymbal\mvc\MvcAppInfo.java to javac build list
+[DEBUG] adding C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\gen\com\cymbal\mvc\MvcApplication.java to javac build list
+[DEBUG] adding C:\Users\johnk.WHITESPACE\Desktop\Repository\Mine\Appcelerator-Mvc\build\android\gen\com\cymbal\mvc\R.java to javac build list
+[DEBUG] Building Java Sources: "C:\\Users\\johnk.WHITESPACE\\Desktop\\Repository\\Mine\\Appcelerator-Mvc\\build\\android\\gen\\com\\cymbal\\mvc\\ApplicationStylesheet.java" "C:\\Users\\johnk.WHITESPACE\\Desktop\\Repository\\Mine\\Appcelerator-Mvc\\build\\android\\gen\\com\\cymbal\\mvc\\MvcActivity.java" "C:\\Users\\johnk.WHITESPACE\\Desktop\\Repository\\Mine\\Appcelerator-Mvc\\build\\android\\gen\\com\\cymbal\\mvc\\MvcAppInfo.java" "C:\\Users\\johnk.WHITESPACE\\Desktop\\Repository\\Mine\\Appcelerator-Mvc\\build\\android\\gen\\com\\cymbal\\mvc\\MvcApplication.java" "C:\\Users\\johnk.WHITESPACE\\Desktop\\Repository\\Mine\\Appcelerator-Mvc\\build\\android\\gen\\com\\cymbal\\mvc\\R.java"
 [INFO] Waiting for SDCard to become available..
-[INFO] Re-launching application ... mvc
-[INFO] Launching application ... mvc
-[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.cymbal.mvc/.MvcActivity }
-
-[INFO] Relaunched mvc ... Application should be running.
+[INFO] Compiling Android Resources... This could take some time
+[ERROR] System Error while compiling Android classes.dex
